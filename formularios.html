@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - EL BLOG DEL CrossFit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formularios.css">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo-container">
+                <img src="img/logo.jpeg" alt="El blog del crossfit Logo" class="logo">
+                <h1 class="gym-name">EJEMPLO</h1>
+            </div>
+            <ul class="navegacion_links">
+                <li class="nav-item"><a href="index.html" >Inicio</a></li>
+                <li class="nav-item"><a href="nosotros.html">Acerca de nosotros</a></li>
+                <li class="nav-item"><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="contact-section">
+            <div class="form-container">
+                <h2 class="form-title">Contáctanos</h2>
+                <p class="form-subtitle">¿Tienes preguntas? Escríbenos y te responderemos pronto.</p>
+                
+                <form action="https://elblogdelcrossfit.com" method="post" class="contact-form">
+                    <div class="form-group">
+                        <label for="nombre" class="form-label">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Ej: Juan Pérez" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="Ej: ejemplo@correo.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefono" class="form-label">Teléfono (opcional)</label>
+                        <input type="tel" id="telefono" name="telefono" class="form-input" placeholder="Ej: +54 11 1234-5678">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="motivo" class="form-label">¿Por qué entrenas?</label>
+                        <select id="motivo" name="motivo" class="form-select">
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="salud">Para mejorar mi salud</option>
+                            <option value="competencia">Para competir</option>
+                            <option value="condicion">Mejorar condición física</option>
+                            <option value="social">Ambiente social</option>
+                            <option value="otro">Otro motivo</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje" class="form-label">Tu mensaje</label>
+                        <textarea id="mensaje" name="mensaje" class="form-textarea" rows="5" placeholder="Escribe aquí tus dudas o comentarios..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter" class="form-checkbox">
+                        <label for="newsletter" class="checkbox-label">Deseo recibir información sobre promociones y noticias</label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Enviar mensaje</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <h3 class="info-title">También puedes contactarnos</h3>
+                <div class="info-item">
+                    <i class="icon">📱</i>
+                    <span>+54 11 1234-5678</span>
+                </div>
+                <div class="info-item">
+                    <i class="icon">📧</i>
+                    <span>info@elblogdelcrossfit.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="icon">📍</i>
+                    <span>Calle Falsa 123, Buenos Aires, Argentina</span>
+                </div>
+                <div class="info-item">
+                    <i class="icon">🕒</i>
+                    <span>Lunes a Viernes: 6:00 - 22:00<br></span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4 class="footer-title">El blog del crossfit</h4>
+                <p>El mejor box de CrossFit en "ciudad". Entrenamientos personalizados y comunidad activa.</p>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">📱</a>
+                    <a href="#" class="social-icon">📸</a>
+                    <a href="#" class="social-icon">🔵</a>
+                    <a href="#" class="social-icon">🎥</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; El blog del CrossFit. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.grid_container{
+    display: grid;
+    grid-template-columns:repeat(3,minmax(200px,350px)) ;
+    grid-template-rows: 200px 200px 200px;
+    border: 2px solid black;
+    background-color: pink;
+    gap: 10px;
+
+    
+}
+.grid_item{
+    border: 2px solid black;
+    background-color: aqua;
+}
