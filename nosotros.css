@@ -1,0 +1,123 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos del header */
+header nav {
+    height: 200px;
+    width: 1300px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+}
+
+header nav_logo {
+    height: 100px;
+    width: 170px;
+}
+
+.navegacion_links {
+    padding-left: 970px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos de la sección principal */
+section {
+    display: flex;
+    height: 700px;
+    width: 1300px;
+    background-color: rgb(170, 115, 222);
+    margin-top: 20px;
+}
+
+article {
+    flex: 2;
+    padding: 20px;
+}
+
+article h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+article p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: rgb(149, 255, 0);
+    padding: 20px;
+}
+
+aside img {
+    height: 100px;
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+aside h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+aside ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #333;
+}
+
+aside p {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Estilos del footer */
+footer {
+    height: 300px;
+    width: 1400px;
+    background-color: grey;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+}
+
+footer h4 {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    }
